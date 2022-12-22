@@ -8,7 +8,7 @@
     <title>Đăng ký</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="/public/img/core-img/favicon.ico" />
+    <!-- <link rel="icon" href="/public/img/core-img/favicon.ico" /> -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/public/vendor/bootstrap/css/bootstrap.min.css">
     <!-- <link href="/public/assets/vendor/fonts/circular-std/style.css" rel="stylesheet"> -->
@@ -38,13 +38,12 @@
     <!-- ============================================================== -->
     <!-- signup form  -->
     <!-- ============================================================== -->
-    <form class="splash-container" method="POST" action="/sign-up">
-        <div class="card">
-            <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;" class="card-header">
-                <img class="logo-img mb-3" src="/public/img/core-img/logo.png" alt="logo">
-                <p>Vui lòng nhập thông tin</p>
+    <form class="splash-container" method="POST" action="/sign-up" style="max-width: 500px !important;">
+        <div class="card" style="box-shadow: 1px 1px 6px -1px #888888;">
+            <div class="card-header text-center">
+                <h2>Đăng ký</h2>
             </div>
-            <div class="card-body">
+            <div class="card-body " >
                 <div class="form-group">
                     <input class="form-control form-control-lg" type="text" name="firstname" required placeholder="Họ" autocomplete="off">
                 </div>
